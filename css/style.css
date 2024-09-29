@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Text decoration */
+
+header nav ul li {
+    cursor: pointer;
+    font-size: 1.18em;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+main section h1 {
+    font-size: 4em;
+    font-weight: 800;
+    color:#FD7D54;
+    letter-spacing: 3vh;
+    margin-bottom: 1vh;
+}
+
+main section h2 {
+    font-weight: 800px;
+    text-transform: uppercase;
+    font-size: 1.62em;
+    color: #ffffff;
+}
+
+main section article p {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+main section .intro p {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 7vh;
+}
+
+main section article a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.18em;
+    color: #41C3F6;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+
+
+
+
+
+/* Body */
+
+body {
+    max-width: 1728px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.container {
+    background-image: url(../img/unsplash_NTYYL9Eb9y8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Nav */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.13;
+    background-color: #000000;
+}
+
+header nav {
+    flex: 0.8;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.roundNav {
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vh;
+}
+
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1.5;
+}
+
+main section {
+    background-color: #000000;
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 7vh 0 6vh 0;
+}
+
+main section .mainIntro {
+    display: flex;
+    flex-direction: row;
+}
+
+main section .mainIntro article {
+    border: 4px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    flex: 0.22;
+}
+
+main section .mainIntro article .round {
+    border-radius: 50%;
+    background-color: #C90A47;
+    width: 12.7vh;
+    height: 12.7vh;
+    margin-top: 4vh;
+    box-shadow: 2px -1px 5px rgba(254, 254, 254, 0.7);
+    position: relative;
+}
+
+main section .mainIntro article .two img {
+    position: absolute;
+    top: 8%;
+}
+
+main section .mainIntro article .three img {
+    position: absolute;
+    top: 11%;
+}
+
+main section .mainIntro article .three .imageStar {
+    position: absolute;
+    top: 75%;;
+    right: 25%;
+}
+
+main section .mainIntro article h2 {
+    margin-top: 2vh;
+    text-align: center;
+    max-width: 70%;
+}
+
+main section .mainIntro article .line {
+    border-bottom: 3px solid #ffffff;
+    border-radius: 2px;
+    margin-top: 1vh;
+    width: 2vh;
+}
+
+main section .mainIntro article p {
+    margin-top: 2vh;
+    text-align: center;
+    line-height: 25px;
+    max-width: 90%;
+}
+
+main section .mainIntro article a {
+    margin: 2vh 0 4vh 0;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    flex: 0.06;
+}
